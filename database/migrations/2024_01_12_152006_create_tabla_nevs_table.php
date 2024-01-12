@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('tabla_nevs', function (Blueprint $table) {
             $table->id();
+            $table->string("szoveg");
             $table->timestamps();
         });
     }
